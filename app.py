@@ -14,7 +14,7 @@ import csv
 import re
 
 st.set_page_config(page_title="Filtrar CSV por lista", page_icon="🧹", layout="wide")
-st.title("🧹 Filtrar Archivo A usando números presentes en Archivo B")
+st.title("🧹Limpiador de Duplicados")
 st.caption(
     "Sube tu Archivo A, elige la columna a limpiar, luego sube el Archivo B con los números a eliminar. "
     "El resultado excluye esas filas y genera una hoja con los números detectados como repetidos."
@@ -275,3 +275,4 @@ st.markdown(
     "- La opción *Normalizar: conservar solo dígitos* ayuda si tus números tienen guiones, espacios o paréntesis.\n"
     "- Si tu Archivo B trae más de una columna, asegúrate de elegir la que contiene los números a eliminar.\n"
 )
+
